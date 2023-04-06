@@ -5,7 +5,7 @@ An application programming interface is a way for two or more computer programs 
 In simple terms, an API acts as a messenger that takes requests from one application and communicates with another application. This allows different software applications to talk to each other, share data, and perform various functions without the need for direct communication between them.
 
 # A simple diagram of how an API operates:
-![API Diagram](https://ibb.co/FHvyn6d)
+![API_Diagram.jpg](API_Diagram.jpg)
 
 # What is a REST API?
 RESTful API is an interface that two computer systems use to exchange information securely over the internet. Most business applications have to communicate with other internal and third-party applications to perform various tasks. For example, to generate monthly payslips, your internal accounts system has to share data with your customer's banking system to automate invoicing and communicate with an internal timesheet application.
@@ -16,7 +16,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, 
 A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.
 
 # HTTP Request Structure Diagram:
-![HTTP Diagram](https://trello.com/1/cards/642ead9182e83ececa0f4e62/attachments/642eaf723b298f02fbef75ab/previews/642eaf723b298f02fbef75ce/download/HTTP_request.png)
+![HTTP_request.png](HTTP_request.png)
 
 # What are the 5 HTTP verbs?
 The HTTP protocol supports several HTTP verbs:
