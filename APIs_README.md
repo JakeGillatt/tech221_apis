@@ -18,6 +18,31 @@ A typical flow over HTTP involves a client machine making a request to a server,
 # HTTP Request Structure Diagram:
 ![HTTP_request.png](HTTP_request.png)
 
+HTTP Response
+HTTP Response sent by a server to the client. The response is used to provide the client with the resource it requested. It is also used to inform the client that the action requested has been carried out. It can also inform the client that an error occurred in processing its request.
+
+An HTTP response contains the following things:
+
+- Status Line
+- Response Header Fields or a series of HTTP headers
+- Message Body
+- In the request message, each HTTP header is followed by a carriage returns line feed (CRLF). After the last of the HTTP headers, an additional CRLF is used and then begins the message body.
+
+In the response message, the status line is the first line. The status line contains three items:
+- The HTTP version number, showing the HTTP specification to which the server has tried to make the message comply.
+- A status code, which is a three-digit number indicating the result of the request.
+- A reason phrase, also known as status text, which is human-readable text that summarizes the meaning of the status code.
+
+HTTP headers:
+
+The HTTP headers for a server's response contain information that a client can use to find out more about the response, and about the server that sent it. This information can assist the client with displaying the response to a user, with storing (or caching) the response for future use, and with making further requests to the server now or in the future
+
+Message body:
+
+The message body of a response may be referred to for convenience as a response body.
+Message bodies are used for most responses. The exceptions are where a server is responding to a client request that used the HEAD method (which asks for the headers but not the body of the response), and where a server is using certain status codes.
+For a response to a successful request, the message body contains either the resource requested by the client, or some information about the status of the action requested by the client. For a response to an unsuccessful request, the message body might provide further information about the reasons for the error, or about some action the client needs to take to complete the request successfully.
+
 # What are the 5 HTTP verbs?
 The HTTP protocol supports several HTTP verbs:
 
